@@ -1,0 +1,224 @@
+{
+
+}
+
+
+/*navbar  */
+/*navbar  */
+.navbar{
+    background: white;
+}
+
+.navbar .container .navbar-brand{
+    color:rgb(32, 166, 243);
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px #000;
+}
+
+
+.navbar .container a span{
+    color: rgb(33, 250, 98);
+    font-weight: bold;
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px #000;
+}
+
+/* navbar links */
+/* navbar links */
+#ecoserve ul li{
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+
+#ecoserve ul li a{
+    color: black;
+}
+
+#ecoserve ul li a:hover{
+    color:rgb(32, 166, 243) ;
+    position: relative;
+}
+
+#ecoserve ul li a:hover::before{
+    content:"";
+    height: .71vh;
+    width: 100%;
+    top: 3rem;
+    position: absolute;
+    background-color: rgb(33, 250, 98) ;
+}
+
+/* banner */
+/* banner */
+#banner{
+    background-image: url(/assets/img/banner.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+#banner .container .row .col-md-6{
+    align-items: center;
+}
+
+#banner .container .row .col-md-6 .text-cont{
+    /* box-sizing: border-box;
+    border: 1px solid red; */
+    margin-top: 12rem;
+}
+
+#banner .container .row .col-md-6 h1{
+    color: white;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 5px #000;
+    font-size: 3rem;
+}
+
+#banner .container .row .col-md-6 p{
+    color: white;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 5px #000;
+    font-size: 2rem;
+}
+
+/* welcome note */
+/* welcome note */
+#welcome{
+    background:rgb(10, 175, 59) ;
+}
+
+#welcome .col-md-4 .text-cont h2{
+    color: white;
+}
+
+#welcome .col-md-4 .text-cont p{
+    color: white;
+}
+
+#projects .container{
+    justify-items: center;
+}
+
+#projects .intro h2{
+    text-transform: capitalize;
+}
+
+#about .container{
+    justify-items: center;
+}
+
+#about .container .intro h2{
+    text-transform: capitalize;
+}
+
+#about h5{
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 1rem;
+}
+
+/* mission */
+/* mission */
+#mission{
+    background-image: url(/assets/img/mission.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+#mission .intro h2{
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+}
+
+#mission .container{
+    background: hsla(0, 0%, 0%, 0.404);
+}
+
+#mission .container .img-cont{
+    font-size: 3rem;
+    font-family: bootstrap icons;
+    color: #fff;
+} 
+
+#mission .container .text-cont h3{
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+}
+
+#mission .container .text-cont p{
+    color: #fff;
+    text-shadow: 2px 2px 5px #000; 
+}
+
+/* partners */
+/* partners */
+#partners img{
+    filter: grayscale(100);
+    transition: all 2s ease;
+}
+
+#partners img:hover{
+    filter: grayscale(0);
+    scale: 1.1;
+}
+
+#footer{
+    background:rgb(10, 175, 59);
+    justify-content: center;
+}
+
+#footer .container .navbar-brand{
+    color:rgb(32, 166, 243);
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 2rem;
+    text-shadow: 2px 2px 5px #000;
+}
+
+#footer .container a span{
+    color: rgb(33, 250, 98);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#footer .container .socials{
+    padding-top: 1rem;
+}
+
+#footer .container .socials ul{
+    display: inline-block;  
+}
+
+#footer .container .socials ul li{
+    list-style: none;
+    display: inline;
+    padding: .6rem;
+    margin-top: 1rem;
+}
+
+#footer .container .socials ul li a{
+    font-size: 1.4rem;
+    color: #fff;   
+}
+
+#footer .container .socials ul li a:hover{ 
+    color:rgb(32, 166, 243);
+}
+
+#footer .cremarks{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 1.3rem;
+}
+#footer .cremarks h4{
+    font-weight: bold;
+}
